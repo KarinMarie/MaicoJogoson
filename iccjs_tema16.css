@@ -1,0 +1,243 @@
+/*
+nome: Karin Marie Silva dos Santos = nº 15
+      Fernanda de Pontes = nº 6
+turma: IN110 (A MELHOR)*/
+
+/*CABEÇALHO*/
+
+header
+{
+	background-color: rgba(255,255,255,.8);
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+h1
+{
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 45px;
+	letter-spacing: 10px;
+	
+}
+
+h2
+{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 35px;
+	color:rgb(65,105,225);
+}
+
+h3{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 25px;
+	color:	blue;
+}
+
+body header nav ul
+{
+	width: 400px;
+	margin: 0 auto;
+}
+
+body header nav ul li
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+body header nav ul li.lastChild
+{
+	margin-left: 0;
+}
+
+/*CORPO*/
+
+.wrap{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.corpo
+{
+	/*background-color: rgba(255,255,255,.8);*/
+	background-image: url("iccjs_tema16/bgdangerous.jpg");
+	background-size: cover;
+	opacity: 0.8;
+	width: 60%;
+	padding: 20px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+aside, #resultado
+{
+	background-image: url("iccjs_tema16/bgdangerous.jpg");
+	background-size: cover;
+	padding-left: 10px;
+	padding-right: 10px;
+	opacity: 0.8;
+	width: 30%;
+	float: right;
+	/*background-color: rgba(255,255,255,.8);*/
+	margin-top: 20px;
+	overflow: auto
+}
+
+footer
+{
+	/*background-color: rgba(255,255,255,.8);*/
+	background-image: url("iccjs_tema16/bgdangerous.jpg");
+	background-size: cover;
+	opacity: 0.8;
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+p, form, label, h4
+{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 25px;
+}
+
+p{
+	text-align: center;
+	text-indent: 20px;
+}
+
+#comofazerascontas p
+{
+	text-align: justify;
+}
+
+#mudei
+{
+	font-size: 30px;
+}
+
+ /*LISTAS*/
+
+nav ul
+{
+	list-style-image: url("iccjs_tema16/gificon.gif");
+}
+
+/*LINKS*/
+
+a
+{
+	color: 	#4B0082;
+	text-decoration: none;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 20px;
+}
+
+a:visited
+{
+	text-decoration: line-through;
+}
+
+a:hover
+{
+	color: #8B008B;
+	font-weight: bolder;
+}
+
+a:active
+{
+	color: #FF00FF;
+	font-weight: bolder;
+}
+
+/*IMAGENS DO "COMO FAZER AS CONTAS"*/
+
+#corpo img
+{
+	width: 800px;
+}
+
+/*BOTÃO*/
+
+#botao
+{
+	width: 200px;
+	height: 50px;
+	background-color: #FFC0CB;
+	color: #1C1C1C;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Amaranth', sans-serif;
+}
+
+#botao:hover
+{
+	background-color: #FF00FF;
+	color: #B0C4DE;
+}
+
+#botao:active
+{
+	background-color: #1C1C1C;
+	color: #FFC0CB;
+	font-weight: bold;
+}
+
+/*RESULTADO*/
+
+#resultado img
+{
+	margin: 0 auto;
+	border: 2px #A020F0 dotted;
+}
+
+#resultado h4
+{
+	text-align: center;
+}
+
+#imgresultado
+{
+	text-align: center;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 900px)
+{
+	.wrap
+	{
+		width: 95%;
+	}
+
+	header
+	{
+		width: 95%;
+	}
+
+    .corpo
+    {
+    	width: 92%;
+    }
+
+    .corpo img
+    {
+    	width: 425px;
+    	margin: 0 auto;
+    }
+
+    aside, #resultado
+    {
+    	width: 95.7%;
+    	text-align: center;
+    }
+
+    #resultado
+    {
+    	margin-bottom: 30px;
+    }
+}
