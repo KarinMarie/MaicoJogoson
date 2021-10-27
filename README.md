@@ -4,7 +4,7 @@ Trabalho da terceira certificação em Introdução à Ciência da Computação 
 Assignment of the third certification in Introduction to Computer Science of the Systems Development technical course, held in October 2019. It uses HTML, CSS and JavaScript. Relatively responsive. HTML and CSS validated by the W3Schools validation service.
 
 
---- SCREENSHOTS ---
+    --- SCREENSHOTS ---
 
 ![image](https://user-images.githubusercontent.com/93265472/139110640-fdc7a201-3b95-4a52-9096-aa3ad0fb8a04.png)
 
